@@ -78,7 +78,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Feed.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="Range.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="Stadium.cpp" />
     <ClCompile Include="소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SnakeModule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
